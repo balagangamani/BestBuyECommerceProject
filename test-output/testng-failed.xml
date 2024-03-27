@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="test.TC006_SearchAddItemInCart">
+        <methods>
+          <include name="close"/>
+          <include name="startReport"/>
+          <include name="endReport"/>
+          <include name="testDetails"/>
+          <include name="setup"/>
+          <include name="start"/>
+          <include name="tc_06_SearchAddItemInCart"/>
+        </methods>
+      </class> <!-- test.TC006_SearchAddItemInCart -->
+      <class name="test.TC008_SelAddItemShopByBrandMenu">
+        <methods>
+          <include name="close"/>
+          <include name="setup"/>
+          <include name="startReport"/>
+          <include name="endReport"/>
+          <include name="testDetails"/>
+          <include name="tc_08_selAddItemShopByBrandMenu"/>
+          <include name="start"/>
+        </methods>
+      </class> <!-- test.TC008_SelAddItemShopByBrandMenu -->
+      <class name="test.TC004_CheckTitleOfAllMenu">
+        <methods>
+          <include name="tc_04_CheckTitleOfAllMenu" invocation-numbers="2 5 6 8"/>
+          <include name="close"/>
+          <include name="startReport"/>
+          <include name="endReport"/>
+          <include name="testDetails"/>
+          <include name="start"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- test.TC004_CheckTitleOfAllMenu -->
+      <class name="test.TC007_SelAddItemShopByDeptMenu">
+        <methods>
+          <include name="close"/>
+          <include name="tc_07_selAddItemShopByDeptMenu"/>
+          <include name="startReport"/>
+          <include name="endReport"/>
+          <include name="setup"/>
+          <include name="testDetails"/>
+          <include name="start"/>
+        </methods>
+      </class> <!-- test.TC007_SelAddItemShopByDeptMenu -->
+      <class name="test.TC003_SignIn">
+        <methods>
+          <include name="tc_03_SignInFunctionality" invocation-numbers="0 1 3"/>
+          <include name="setup"/>
+          <include name="close"/>
+          <include name="startReport"/>
+          <include name="endReport"/>
+          <include name="testDetails"/>
+          <include name="start"/>
+        </methods>
+      </class> <!-- test.TC003_SignIn -->
+      <class name="test.TC009_CheckOutPageFilling">
+        <methods>
+          <include name="close"/>
+          <include name="setup"/>
+          <include name="startReport"/>
+          <include name="endReport"/>
+          <include name="tc_09_CheckOutPageFilling"/>
+          <include name="testDetails"/>
+          <include name="start"/>
+        </methods>
+      </class> <!-- test.TC009_CheckOutPageFilling -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

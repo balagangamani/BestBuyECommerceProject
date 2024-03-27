@@ -1,0 +1,1756 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 11 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-failed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>E:\EclipseClass\BestBuyECommerceProject\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">31 methods, 11 failed,   20 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.TC003_SignIn" class="method navigator-link" hash-for-method="tc_03_SignInFunctionality(vino18493@gmail.com, testingtesting, //span[text()=&#039;Hi, Test&#039;], Hi, Test)">tc_03_SignInFunctionality(vino18493@gmail.com, testingtesting, //span[text()='Hi, Test'], Hi, Test)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.TC003_SignIn" class="method navigator-link" hash-for-method="tc_03_SignInFunctionality(vino18493@gmail.com, teting, //div[text()=&#039;The password was incorrect. Please try again.&#039;], The pass...)">tc_03_SignInFunctionality(vino18493@gmail.com, teting, //div[text()='The password was incorrect. Please try again.'], The pass...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.TC003_SignIn" class="method navigator-link" hash-for-method="tc_03_SignInFunctionality(vino184@gmail.com, testing, //strong//div, We didn&#039;t find an account with that email address. Would ...)">tc_03_SignInFunctionality(vino184@gmail.com, testing, //strong//div, We didn't find an account with that email address. Would ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.TC004_CheckTitleOfAllMenu" class="method navigator-link" hash-for-method="tc_04_CheckTitleOfAllMenu(Gift Ideas, Gift Ideas 2023: Best Gifts to Give This Year - Best Buy)">tc_04_CheckTitleOfAllMenu(Gift Ideas, Gift Ideas 2023: Best Gifts to Give This Year - Best Buy)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.TC004_CheckTitleOfAllMenu" class="method navigator-link" hash-for-method="tc_04_CheckTitleOfAllMenu(Best Buy Business, Best Buy for Business - Best Buy)">tc_04_CheckTitleOfAllMenu(Best Buy Business, Best Buy for Business - Best Buy)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.TC004_CheckTitleOfAllMenu" class="method navigator-link" hash-for-method="tc_04_CheckTitleOfAllMenu(Totaltech Membership, Best Buy Totaltech™ – Best Buy)">tc_04_CheckTitleOfAllMenu(Totaltech Membership, Best Buy Totaltech™ – Best Buy)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.TC004_CheckTitleOfAllMenu" class="method navigator-link" hash-for-method="tc_04_CheckTitleOfAllMenu(Health &amp; Wellness, Health &amp; Wellness Solutions &amp; Technology - Best Buy)">tc_04_CheckTitleOfAllMenu(Health & Wellness, Health & Wellness Solutions & Technology - Best Buy)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.TC006_SearchAddItemInCart" class="method navigator-link" hash-for-method="tc_06_SearchAddItemInCart">tc_06_SearchAddItemInCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.TC007_SelAddItemShopByDeptMenu" class="method navigator-link" hash-for-method="tc_07_selAddItemShopByDeptMenu">tc_07_selAddItemShopByDeptMenu</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.TC008_SelAddItemShopByBrandMenu" class="method navigator-link" hash-for-method="tc_08_selAddItemShopByBrandMenu">tc_08_selAddItemShopByBrandMenu</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.TC009_CheckOutPageFilling" class="method navigator-link" hash-for-method="tc_09_CheckOutPageFilling">tc_09_CheckOutPageFilling</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.TC001_NavigatingtoBestBuy" class="method navigator-link" hash-for-method="tc_01_navgatingToBestBestApp">tc_01_navgatingToBestBestApp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.TC002_ValidateUrlIsNotBroken" class="method navigator-link" hash-for-method="tc_02_validateUrlIsNotBroken">tc_02_validateUrlIsNotBroken</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.TC003_SignIn" class="method navigator-link" hash-for-method="tc_03_SignInFunctionality(vino184@gmail.com, testingtesting, //div[text()=&#039;Sorry, something went wrong. Please try again.&#039;], S...)">tc_03_SignInFunctionality(vino184@gmail.com, testingtesting, //div[text()='Sorry, something went wrong. Please try again.'], S...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.TC003_CreateAccount" class="method navigator-link" hash-for-method="tc_03_validateCreatAccountFunctionality(, t, vino18493@gmail.com, testingtesting, testingtesting, 9.87654321E9, //p[text()=&#039;Please enter you...)">tc_03_validateCreatAccountFunctionality(, t, vino18493@gmail.com, testingtesting, testingtesting, 9.87654321E9, //p[text()='Please enter you...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.TC003_CreateAccount" class="method navigator-link" hash-for-method="tc_03_validateCreatAccountFunctionality(test, t, vino18493@gmail.com, testingtesting, testingtesting, 987654321, //p[text()=&#039;Please enter a ...)">tc_03_validateCreatAccountFunctionality(test, t, vino18493@gmail.com, testingtesting, testingtesting, 987654321, //p[text()='Please enter a ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.TC003_CreateAccount" class="method navigator-link" hash-for-method="tc_03_validateCreatAccountFunctionality(test, t, vino18493.com, testingtesting, testingtesting, 9.87654321E9, //p[text()=&#039;Please enter a val...)">tc_03_validateCreatAccountFunctionality(test, t, vino18493.com, testingtesting, testingtesting, 9.87654321E9, //p[text()='Please enter a val...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.TC003_CreateAccount" class="method navigator-link" hash-for-method="tc_03_validateCreatAccountFunctionality(test, t, vino18493@gmail.com, test, test, 9.87654321E9, //p[text()=&#039;Please enter a strong password.&#039;...)">tc_03_validateCreatAccountFunctionality(test, t, vino18493@gmail.com, test, test, 9.87654321E9, //p[text()='Please enter a strong password.'...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.TC003_CreateAccount" class="method navigator-link" hash-for-method="tc_03_validateCreatAccountFunctionality(test, t, vino18493@gmail.com, , testingtesting, 9.87654321E9, //p[text()=&#039;Passwords do not match.&#039;],...)">tc_03_validateCreatAccountFunctionality(test, t, vino18493@gmail.com, , testingtesting, 9.87654321E9, //p[text()='Passwords do not match.'],...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.TC003_CreateAccount" class="method navigator-link" hash-for-method="tc_03_validateCreatAccountFunctionality(test, t, vino18493@gmail.com, testingtesting, testingtesting, 98765qwert, //p[text()=&#039;Please enter a...)">tc_03_validateCreatAccountFunctionality(test, t, vino18493@gmail.com, testingtesting, testingtesting, 98765qwert, //p[text()='Please enter a...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.TC003_CreateAccount" class="method navigator-link" hash-for-method="tc_03_validateCreatAccountFunctionality(test, t, vino18493@gmail.com, testingtesting, testingtesting, 9876543210, //strong[text()=&#039;Sorry, th...)">tc_03_validateCreatAccountFunctionality(test, t, vino18493@gmail.com, testingtesting, testingtesting, 9876543210, //strong[text()='Sorry, th...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.TC003_CreateAccount" class="method navigator-link" hash-for-method="tc_03_validateCreatAccountFunctionality(test, , vino18493@gmail.com, testingtesting, testingtesting, 9.87654321E9, //p[text()=&#039;Please enter ...)">tc_03_validateCreatAccountFunctionality(test, , vino18493@gmail.com, testingtesting, testingtesting, 9.87654321E9, //p[text()='Please enter ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.TC003_CreateAccount" class="method navigator-link" hash-for-method="tc_03_validateCreatAccountFunctionality(test, t, vino18493@gmail.com, testingtesting, testingtesting, qwertyuiop, //p[text()=&#039;Please enter a...)">tc_03_validateCreatAccountFunctionality(test, t, vino18493@gmail.com, testingtesting, testingtesting, qwertyuiop, //p[text()='Please enter a...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.TC003_CreateAccount" class="method navigator-link" hash-for-method="tc_03_validateCreatAccountFunctionality(test, t, vino18493@gmail.com, testingtesting, , 9.87654321E9, //p[text()=&#039;Passwords do not match.&#039;],...)">tc_03_validateCreatAccountFunctionality(test, t, vino18493@gmail.com, testingtesting, , 9.87654321E9, //p[text()='Passwords do not match.'],...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.TC003_CreateAccount" class="method navigator-link" hash-for-method="tc_03_validateCreatAccountFunctionality(test, t, vino18493@gmail.com, , , 9.87654321E9, //p[text()=&#039;Please enter a strong password.&#039;], Pleas...)">tc_03_validateCreatAccountFunctionality(test, t, vino18493@gmail.com, , , 9.87654321E9, //p[text()='Please enter a strong password.'], Pleas...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.TC004_CheckTitleOfAllMenu" class="method navigator-link" hash-for-method="tc_04_CheckTitleOfAllMenu(Best Buy Outlet, Best Buy Outlet: Clearance Electronics Outlet Store – Best Buy)">tc_04_CheckTitleOfAllMenu(Best Buy Outlet, Best Buy Outlet: Clearance Electronics Outlet Store – Best Buy)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.TC004_CheckTitleOfAllMenu" class="method navigator-link" hash-for-method="tc_04_CheckTitleOfAllMenu(Credit Cards, Best Buy Credit Card: Rewards &amp; Financing)">tc_04_CheckTitleOfAllMenu(Credit Cards, Best Buy Credit Card: Rewards & Financing)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.TC004_CheckTitleOfAllMenu" class="method navigator-link" hash-for-method="tc_04_CheckTitleOfAllMenu(Gift Cards, Gifts Cards and E-Gift Cards - Best Buy)">tc_04_CheckTitleOfAllMenu(Gift Cards, Gifts Cards and E-Gift Cards - Best Buy)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.TC004_CheckTitleOfAllMenu" class="method navigator-link" hash-for-method="tc_04_CheckTitleOfAllMenu(Top Deals, Top Deals and Featured Offers on Electronics - Best Buy)">tc_04_CheckTitleOfAllMenu(Top Deals, Top Deals and Featured Offers on Electronics - Best Buy)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.TC004_CheckTitleOfAllMenu" class="method navigator-link" hash-for-method="tc_04_CheckTitleOfAllMenu(Deal of the Day, Deal of the Day: Electronics Deals - Best Buy)">tc_04_CheckTitleOfAllMenu(Deal of the Day, Deal of the Day: Electronics Deals - Best Buy)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.TC005_ValidateLinkInBottomOfHomePage" class="method navigator-link" hash-for-method="tc_05_validateLinkInBottomOfHomePage">tc_05_validateLinkInBottomOfHomePage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">test.TC006_SearchAddItemInCart</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc_06_SearchAddItemInCart">
+                  </a> <!-- tc_06_SearchAddItemInCart -->
+                  <span class="method-name">tc_06_SearchAddItemInCart</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //li[contains(., &apos;Logitech - G502 Lightspeed&apos;)]//button[@class=&apos;c-button c-button-primary c-button-sm c-button-block c-button-icon c-button-icon-leading add-to-cart-button&apos;]&apos; (tried for 15 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
+	at utils.Utility.waitExplicit(Utility.java:94)
+	at utils.Utility.clickOn(Utility.java:117)
+	at pages.ProductPage.addLogitechMouse(ProductPage.java:54)
+	at test.TC006_SearchAddItemInCart.tc_06_SearchAddItemInCart(TC006_SearchAddItemInCart.java:30)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//li[contains(., &apos;Logitech - G502 Lightspeed&apos;)]//button[@class=&apos;c-button c-button-primary c-button-sm c-button-block c-button-icon c-button-icon-leading add-to-cart-button&apos;]&quot;}
+  (Session info: MicrosoftEdge=122.0.2365.92)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [3a254c3d8626a228d06d10b4d482abd9, findElement {using=xpath, value=//li[contains(., &apos;Logitech - G502 Lightspeed&apos;)]//button[@class=&apos;c-button c-button-primary c-button-sm c-button-block c-button-icon c-button-icon-leading add-to-cart-button&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 122.0.2365.92, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:58714}, msedge: {msedgedriverVersion: 122.0.2365.106 (a5761ec7165..., userDataDir: C:\Users\homeh\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58714/devtoo..., se:cdpVersion: 122.0.2365.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3a254c3d8626a228d06d10b4d482abd9
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy40.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:37)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:205)
+	... 32 more
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">test.TC008_SelAddItemShopByBrandMenu</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc_08_selAddItemShopByBrandMenu">
+                  </a> <!-- tc_08_selAddItemShopByBrandMenu -->
+                  <span class="method-name">tc_08_selAddItemShopByBrandMenu</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //a[text()=&apos;Lenovo&apos;]&apos; (tried for 15 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
+	at utils.Utility.waitExplicit(Utility.java:94)
+	at utils.Utility.clickOn(Utility.java:117)
+	at pages.HomePage.selectLenovoBrand(HomePage.java:136)
+	at test.TC008_SelAddItemShopByBrandMenu.tc_08_selAddItemShopByBrandMenu(TC008_SelAddItemShopByBrandMenu.java:28)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[text()=&apos;Lenovo&apos;]&quot;}
+  (Session info: MicrosoftEdge=122.0.2365.92)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [6148f7c62fac54e83943dcca88d517fb, findElement {using=xpath, value=//a[text()=&apos;Lenovo&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 122.0.2365.92, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:56976}, msedge: {msedgedriverVersion: 122.0.2365.106 (a5761ec7165..., userDataDir: C:\Users\homeh\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56976/devtoo..., se:cdpVersion: 122.0.2365.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6148f7c62fac54e83943dcca88d517fb
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy40.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:37)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:205)
+	... 32 more
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">test.TC004_CheckTitleOfAllMenu</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc_04_CheckTitleOfAllMenu(Gift Ideas, Gift Ideas 2023: Best Gifts to Give This Year - Best Buy)">
+                  </a> <!-- tc_04_CheckTitleOfAllMenu(Gift Ideas, Gift Ideas 2023: Best Gifts to Give This Year - Best Buy) -->
+                  <span class="method-name">tc_04_CheckTitleOfAllMenu</span>
+                  <span class="parameters">(Gift Ideas, Gift Ideas 2023: Best Gifts to Give This Year - Best Buy)</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[EdgeDriver: MicrosoftEdge on windows (0890827a13f1a33554147f9e4d7d70d9)] -&gt; xpath: //a[text()=&apos;Gift Ideas&apos;]] (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 122.0.2365.92, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:56454}, msedge: {msedgedriverVersion: 122.0.2365.106 (a5761ec7165..., userDataDir: C:\Users\homeh\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56454/devtoo..., se:cdpVersion: 122.0.2365.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0890827a13f1a33554147f9e4d7d70d9
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
+	at utils.Utility.waitExplicit(Utility.java:94)
+	at utils.Utility.clickOn(Utility.java:117)
+	at pages.HomePage.menuValidation(HomePage.java:146)
+	at test.TC004_CheckTitleOfAllMenu.tc_04_CheckTitleOfAllMenu(TC004_CheckTitleOfAllMenu.java:26)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc_04_CheckTitleOfAllMenu(Best Buy Business, Best Buy for Business - Best Buy)">
+                  </a> <!-- tc_04_CheckTitleOfAllMenu(Best Buy Business, Best Buy for Business - Best Buy) -->
+                  <span class="method-name">tc_04_CheckTitleOfAllMenu</span>
+                  <span class="parameters">(Best Buy Business, Best Buy for Business - Best Buy)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//li[@class=&apos;liDropdownList&apos;]//a[text()=&apos;Best Buy Business&apos;]&quot;}
+  (Session info: MicrosoftEdge=122.0.2365.92)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [8b0e156ab682d7deed01f0526863eb5d, findElement {using=xpath, value=//li[@class=&apos;liDropdownList&apos;]//a[text()=&apos;Best Buy Business&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 122.0.2365.92, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:56767}, msedge: {msedgedriverVersion: 122.0.2365.106 (a5761ec7165..., userDataDir: C:\Users\homeh\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56767/devtoo..., se:cdpVersion: 122.0.2365.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8b0e156ab682d7deed01f0526863eb5d
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at pages.HomePage.menuValidation(HomePage.java:142)
+	at test.TC004_CheckTitleOfAllMenu.tc_04_CheckTitleOfAllMenu(TC004_CheckTitleOfAllMenu.java:26)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc_04_CheckTitleOfAllMenu(Totaltech Membership, Best Buy Totaltech™ – Best Buy)">
+                  </a> <!-- tc_04_CheckTitleOfAllMenu(Totaltech Membership, Best Buy Totaltech™ – Best Buy) -->
+                  <span class="method-name">tc_04_CheckTitleOfAllMenu</span>
+                  <span class="parameters">(Totaltech Membership, Best Buy Totaltech™ – Best Buy)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[text()=&apos;Totaltech Membership&apos;]&quot;}
+  (Session info: MicrosoftEdge=122.0.2365.92)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [cfa0abff22677456d7fd227a8cb40788, findElement {using=xpath, value=//a[text()=&apos;Totaltech Membership&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 122.0.2365.92, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:55687}, msedge: {msedgedriverVersion: 122.0.2365.106 (a5761ec7165..., userDataDir: C:\Users\homeh\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55687/devtoo..., se:cdpVersion: 122.0.2365.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cfa0abff22677456d7fd227a8cb40788
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at pages.HomePage.menuValidation(HomePage.java:146)
+	at test.TC004_CheckTitleOfAllMenu.tc_04_CheckTitleOfAllMenu(TC004_CheckTitleOfAllMenu.java:26)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc_04_CheckTitleOfAllMenu(Health &amp; Wellness, Health &amp; Wellness Solutions &amp; Technology - Best Buy)">
+                  </a> <!-- tc_04_CheckTitleOfAllMenu(Health & Wellness, Health & Wellness Solutions & Technology - Best Buy) -->
+                  <span class="method-name">tc_04_CheckTitleOfAllMenu</span>
+                  <span class="parameters">(Health & Wellness, Health & Wellness Solutions & Technology - Best Buy)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[text()=&apos;Health &amp; Wellness&apos;]&quot;}
+  (Session info: MicrosoftEdge=122.0.2365.92)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [bb122d497d0e5185fa5ad783a0138db8, findElement {using=xpath, value=//a[text()=&apos;Health &amp; Wellness&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 122.0.2365.92, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:56551}, msedge: {msedgedriverVersion: 122.0.2365.106 (a5761ec7165..., userDataDir: C:\Users\homeh\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56551/devtoo..., se:cdpVersion: 122.0.2365.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bb122d497d0e5185fa5ad783a0138db8
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at pages.HomePage.menuValidation(HomePage.java:146)
+	at test.TC004_CheckTitleOfAllMenu.tc_04_CheckTitleOfAllMenu(TC004_CheckTitleOfAllMenu.java:26)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">test.TC007_SelAddItemShopByDeptMenu</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc_07_selAddItemShopByDeptMenu">
+                  </a> <!-- tc_07_selAddItemShopByDeptMenu -->
+                  <span class="method-name">tc_07_selAddItemShopByDeptMenu</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[contains(text(),&apos;Sony - 75&quot; Class BRAVIA XR X90K 4K HDR Full Array LED Google TV&apos;)]&quot;}
+  (Session info: MicrosoftEdge=122.0.2365.92)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [60b172838865686aef8e147e46b9d157, findElement {using=xpath, value=//a[contains(text(),&apos;Sony - 75&quot; Class BRAVIA XR X90K 4K HDR Full Array LED Google TV&apos;)]}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 122.0.2365.92, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:59191}, msedge: {msedgedriverVersion: 122.0.2365.106 (a5761ec7165..., userDataDir: C:\Users\homeh\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59191/devtoo..., se:cdpVersion: 122.0.2365.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 60b172838865686aef8e147e46b9d157
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy40.getText(Unknown Source)
+	at utils.Utility.extractText(Utility.java:127)
+	at pages.ProductPage.addSony75InchTVInProdPageM2(ProductPage.java:67)
+	at test.TC007_SelAddItemShopByDeptMenu.tc_07_selAddItemShopByDeptMenu(TC007_SelAddItemShopByDeptMenu.java:30)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">test.TC003_SignIn</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc_03_SignInFunctionality(vino18493@gmail.com, testingtesting, //span[text()=&#039;Hi, Test&#039;], Hi, Test)">
+                  </a> <!-- tc_03_SignInFunctionality(vino18493@gmail.com, testingtesting, //span[text()='Hi, Test'], Hi, Test) -->
+                  <span class="method-name">tc_03_SignInFunctionality</span>
+                  <span class="parameters">(vino18493@gmail.com, testingtesting, //span[text()='Hi, Test'], Hi, Test)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[text()=&apos;Hi, Test&apos;]&quot;}
+  (Session info: MicrosoftEdge=122.0.2365.92)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [98f1b4c36907e54512db0e84f0b910b9, findElement {using=xpath, value=//span[text()=&apos;Hi, Test&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 122.0.2365.92, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:58371}, msedge: {msedgedriverVersion: 122.0.2365.106 (a5761ec7165..., userDataDir: C:\Users\homeh\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58371/devtoo..., se:cdpVersion: 122.0.2365.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 98f1b4c36907e54512db0e84f0b910b9
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at pages.SignInPage.signInFunctionality(SignInPage.java:32)
+	at test.TC003_SignIn.tc_03_SignInFunctionality(TC003_SignIn.java:29)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc_03_SignInFunctionality(vino18493@gmail.com, teting, //div[text()=&#039;The password was incorrect. Please try again.&#039;], The pass...)">
+                  </a> <!-- tc_03_SignInFunctionality(vino18493@gmail.com, teting, //div[text()='The password was incorrect. Please try again.'], The pass...) -->
+                  <span class="method-name">tc_03_SignInFunctionality</span>
+                  <span class="parameters">(vino18493@gmail.com, teting, //div[text()='The password was incorrect. Please try again.'], The password was incorrect. Please try again.)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[text()=&apos;The password was incorrect. Please try again.&apos;]&quot;}
+  (Session info: MicrosoftEdge=122.0.2365.92)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [1831200b646d7054c60868518c46c658, findElement {using=xpath, value=//div[text()=&apos;The password was incorrect. Please try again.&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 122.0.2365.92, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:58163}, msedge: {msedgedriverVersion: 122.0.2365.106 (a5761ec7165..., userDataDir: C:\Users\homeh\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58163/devtoo..., se:cdpVersion: 122.0.2365.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1831200b646d7054c60868518c46c658
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at pages.SignInPage.signInFunctionality(SignInPage.java:32)
+	at test.TC003_SignIn.tc_03_SignInFunctionality(TC003_SignIn.java:29)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc_03_SignInFunctionality(vino184@gmail.com, testing, //strong//div, We didn&#039;t find an account with that email address. Would ...)">
+                  </a> <!-- tc_03_SignInFunctionality(vino184@gmail.com, testing, //strong//div, We didn't find an account with that email address. Would ...) -->
+                  <span class="method-name">tc_03_SignInFunctionality</span>
+                  <span class="parameters">(vino184@gmail.com, testing, //strong//div, We didn't find an account with that email address. Would you like to create an account?)</span>
+                  <div class="stack-trace">java.lang.RuntimeException: See extent report for more details
+	at utils.Utility.reportStep(Utility.java:202)
+	at test.TC003_SignIn.tc_03_SignInFunctionality(TC003_SignIn.java:34)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">test.TC009_CheckOutPageFilling</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc_09_CheckOutPageFilling">
+                  </a> <!-- tc_09_CheckOutPageFilling -->
+                  <span class="method-name">tc_09_CheckOutPageFilling</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //li[contains(., &apos;Logitech - G502 Lightspeed&apos;)]//button[@class=&apos;c-button c-button-primary c-button-sm c-button-block c-button-icon c-button-icon-leading add-to-cart-button&apos;]&apos; (tried for 15 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
+	at utils.Utility.waitExplicit(Utility.java:94)
+	at utils.Utility.clickOn(Utility.java:117)
+	at pages.ProductPage.addLogitechMouse(ProductPage.java:54)
+	at test.TC009_CheckOutPageFilling.tc_09_CheckOutPageFilling(TC009_CheckOutPageFilling.java:33)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//li[contains(., &apos;Logitech - G502 Lightspeed&apos;)]//button[@class=&apos;c-button c-button-primary c-button-sm c-button-block c-button-icon c-button-icon-leading add-to-cart-button&apos;]&quot;}
+  (Session info: MicrosoftEdge=122.0.2365.92)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [b5f6f41d6c5865fe04d754710fe5ee2c, findElement {using=xpath, value=//li[contains(., &apos;Logitech - G502 Lightspeed&apos;)]//button[@class=&apos;c-button c-button-primary c-button-sm c-button-block c-button-icon c-button-icon-leading add-to-cart-button&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 122.0.2365.92, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:57209}, msedge: {msedgedriverVersion: 122.0.2365.106 (a5761ec7165..., userDataDir: C:\Users\homeh\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57209/devtoo..., se:cdpVersion: 122.0.2365.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b5f6f41d6c5865fe04d754710fe5ee2c
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy40.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:37)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:205)
+	... 32 more
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.TC001_NavigatingtoBestBuy</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc_01_navgatingToBestBestApp">
+                  </a> <!-- tc_01_navgatingToBestBestApp -->
+                  <span class="method-name">tc_01_navgatingToBestBestApp</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.TC002_ValidateUrlIsNotBroken</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc_02_validateUrlIsNotBroken">
+                  </a> <!-- tc_02_validateUrlIsNotBroken -->
+                  <span class="method-name">tc_02_validateUrlIsNotBroken</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.TC005_ValidateLinkInBottomOfHomePage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc_05_validateLinkInBottomOfHomePage">
+                  </a> <!-- tc_05_validateLinkInBottomOfHomePage -->
+                  <span class="method-name">tc_05_validateLinkInBottomOfHomePage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.TC004_CheckTitleOfAllMenu</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc_04_CheckTitleOfAllMenu(Best Buy Outlet, Best Buy Outlet: Clearance Electronics Outlet Store – Best Buy)">
+                  </a> <!-- tc_04_CheckTitleOfAllMenu(Best Buy Outlet, Best Buy Outlet: Clearance Electronics Outlet Store – Best Buy) -->
+                  <span class="method-name">tc_04_CheckTitleOfAllMenu</span>
+                  <span class="parameters">(Best Buy Outlet, Best Buy Outlet: Clearance Electronics Outlet Store – Best Buy)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc_04_CheckTitleOfAllMenu(Credit Cards, Best Buy Credit Card: Rewards &amp; Financing)">
+                  </a> <!-- tc_04_CheckTitleOfAllMenu(Credit Cards, Best Buy Credit Card: Rewards & Financing) -->
+                  <span class="method-name">tc_04_CheckTitleOfAllMenu</span>
+                  <span class="parameters">(Credit Cards, Best Buy Credit Card: Rewards & Financing)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc_04_CheckTitleOfAllMenu(Gift Cards, Gifts Cards and E-Gift Cards - Best Buy)">
+                  </a> <!-- tc_04_CheckTitleOfAllMenu(Gift Cards, Gifts Cards and E-Gift Cards - Best Buy) -->
+                  <span class="method-name">tc_04_CheckTitleOfAllMenu</span>
+                  <span class="parameters">(Gift Cards, Gifts Cards and E-Gift Cards - Best Buy)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc_04_CheckTitleOfAllMenu(Top Deals, Top Deals and Featured Offers on Electronics - Best Buy)">
+                  </a> <!-- tc_04_CheckTitleOfAllMenu(Top Deals, Top Deals and Featured Offers on Electronics - Best Buy) -->
+                  <span class="method-name">tc_04_CheckTitleOfAllMenu</span>
+                  <span class="parameters">(Top Deals, Top Deals and Featured Offers on Electronics - Best Buy)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc_04_CheckTitleOfAllMenu(Deal of the Day, Deal of the Day: Electronics Deals - Best Buy)">
+                  </a> <!-- tc_04_CheckTitleOfAllMenu(Deal of the Day, Deal of the Day: Electronics Deals - Best Buy) -->
+                  <span class="method-name">tc_04_CheckTitleOfAllMenu</span>
+                  <span class="parameters">(Deal of the Day, Deal of the Day: Electronics Deals - Best Buy)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.TC003_CreateAccount</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc_03_validateCreatAccountFunctionality(, t, vino18493@gmail.com, testingtesting, testingtesting, 9.87654321E9, //p[text()=&#039;Please enter you...)">
+                  </a> <!-- tc_03_validateCreatAccountFunctionality(, t, vino18493@gmail.com, testingtesting, testingtesting, 9.87654321E9, //p[text()='Please enter you...) -->
+                  <span class="method-name">tc_03_validateCreatAccountFunctionality</span>
+                  <span class="parameters">(, t, vino18493@gmail.com, testingtesting, testingtesting, 9.87654321E9, //p[text()='Please enter your first name.'], Please enter your first name.)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc_03_validateCreatAccountFunctionality(test, t, vino18493@gmail.com, testingtesting, testingtesting, 987654321, //p[text()=&#039;Please enter a ...)">
+                  </a> <!-- tc_03_validateCreatAccountFunctionality(test, t, vino18493@gmail.com, testingtesting, testingtesting, 987654321, //p[text()='Please enter a ...) -->
+                  <span class="method-name">tc_03_validateCreatAccountFunctionality</span>
+                  <span class="parameters">(test, t, vino18493@gmail.com, testingtesting, testingtesting, 987654321, //p[text()='Please enter a valid mobile phone number.'], Please enter a valid mobile phone number.)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc_03_validateCreatAccountFunctionality(test, t, vino18493.com, testingtesting, testingtesting, 9.87654321E9, //p[text()=&#039;Please enter a val...)">
+                  </a> <!-- tc_03_validateCreatAccountFunctionality(test, t, vino18493.com, testingtesting, testingtesting, 9.87654321E9, //p[text()='Please enter a val...) -->
+                  <span class="method-name">tc_03_validateCreatAccountFunctionality</span>
+                  <span class="parameters">(test, t, vino18493.com, testingtesting, testingtesting, 9.87654321E9, //p[text()='Please enter a valid email address.'], Please enter a valid email address.)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc_03_validateCreatAccountFunctionality(test, t, vino18493@gmail.com, test, test, 9.87654321E9, //p[text()=&#039;Please enter a strong password.&#039;...)">
+                  </a> <!-- tc_03_validateCreatAccountFunctionality(test, t, vino18493@gmail.com, test, test, 9.87654321E9, //p[text()='Please enter a strong password.'...) -->
+                  <span class="method-name">tc_03_validateCreatAccountFunctionality</span>
+                  <span class="parameters">(test, t, vino18493@gmail.com, test, test, 9.87654321E9, //p[text()='Please enter a strong password.'], Please enter a strong password.)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc_03_validateCreatAccountFunctionality(test, t, vino18493@gmail.com, , testingtesting, 9.87654321E9, //p[text()=&#039;Passwords do not match.&#039;],...)">
+                  </a> <!-- tc_03_validateCreatAccountFunctionality(test, t, vino18493@gmail.com, , testingtesting, 9.87654321E9, //p[text()='Passwords do not match.'],...) -->
+                  <span class="method-name">tc_03_validateCreatAccountFunctionality</span>
+                  <span class="parameters">(test, t, vino18493@gmail.com, , testingtesting, 9.87654321E9, //p[text()='Passwords do not match.'], Passwords do not match.)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc_03_validateCreatAccountFunctionality(test, t, vino18493@gmail.com, testingtesting, testingtesting, 98765qwert, //p[text()=&#039;Please enter a...)">
+                  </a> <!-- tc_03_validateCreatAccountFunctionality(test, t, vino18493@gmail.com, testingtesting, testingtesting, 98765qwert, //p[text()='Please enter a...) -->
+                  <span class="method-name">tc_03_validateCreatAccountFunctionality</span>
+                  <span class="parameters">(test, t, vino18493@gmail.com, testingtesting, testingtesting, 98765qwert, //p[text()='Please enter a valid mobile phone number.'], Please enter a valid mobile phone number.)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc_03_validateCreatAccountFunctionality(test, t, vino18493@gmail.com, testingtesting, testingtesting, 9876543210, //strong[text()=&#039;Sorry, th...)">
+                  </a> <!-- tc_03_validateCreatAccountFunctionality(test, t, vino18493@gmail.com, testingtesting, testingtesting, 9876543210, //strong[text()='Sorry, th...) -->
+                  <span class="method-name">tc_03_validateCreatAccountFunctionality</span>
+                  <span class="parameters">(test, t, vino18493@gmail.com, testingtesting, testingtesting, 9876543210, //strong[text()='Sorry, there was a problem creating your account.'], Sorry, there was a problem creating your account.)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc_03_validateCreatAccountFunctionality(test, , vino18493@gmail.com, testingtesting, testingtesting, 9.87654321E9, //p[text()=&#039;Please enter ...)">
+                  </a> <!-- tc_03_validateCreatAccountFunctionality(test, , vino18493@gmail.com, testingtesting, testingtesting, 9.87654321E9, //p[text()='Please enter ...) -->
+                  <span class="method-name">tc_03_validateCreatAccountFunctionality</span>
+                  <span class="parameters">(test, , vino18493@gmail.com, testingtesting, testingtesting, 9.87654321E9, //p[text()='Please enter your last name.'], Please enter your last name.)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc_03_validateCreatAccountFunctionality(test, t, vino18493@gmail.com, testingtesting, testingtesting, qwertyuiop, //p[text()=&#039;Please enter a...)">
+                  </a> <!-- tc_03_validateCreatAccountFunctionality(test, t, vino18493@gmail.com, testingtesting, testingtesting, qwertyuiop, //p[text()='Please enter a...) -->
+                  <span class="method-name">tc_03_validateCreatAccountFunctionality</span>
+                  <span class="parameters">(test, t, vino18493@gmail.com, testingtesting, testingtesting, qwertyuiop, //p[text()='Please enter a valid mobile phone number.'], Please enter a valid mobile phone number.)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc_03_validateCreatAccountFunctionality(test, t, vino18493@gmail.com, testingtesting, , 9.87654321E9, //p[text()=&#039;Passwords do not match.&#039;],...)">
+                  </a> <!-- tc_03_validateCreatAccountFunctionality(test, t, vino18493@gmail.com, testingtesting, , 9.87654321E9, //p[text()='Passwords do not match.'],...) -->
+                  <span class="method-name">tc_03_validateCreatAccountFunctionality</span>
+                  <span class="parameters">(test, t, vino18493@gmail.com, testingtesting, , 9.87654321E9, //p[text()='Passwords do not match.'], Passwords do not match.)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc_03_validateCreatAccountFunctionality(test, t, vino18493@gmail.com, , , 9.87654321E9, //p[text()=&#039;Please enter a strong password.&#039;], Pleas...)">
+                  </a> <!-- tc_03_validateCreatAccountFunctionality(test, t, vino18493@gmail.com, , , 9.87654321E9, //p[text()='Please enter a strong password.'], Pleas...) -->
+                  <span class="method-name">tc_03_validateCreatAccountFunctionality</span>
+                  <span class="parameters">(test, t, vino18493@gmail.com, , , 9.87654321E9, //p[text()='Please enter a strong password.'], Please enter a strong password.)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.TC003_SignIn</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc_03_SignInFunctionality(vino184@gmail.com, testingtesting, //div[text()=&#039;Sorry, something went wrong. Please try again.&#039;], S...)">
+                  </a> <!-- tc_03_SignInFunctionality(vino184@gmail.com, testingtesting, //div[text()='Sorry, something went wrong. Please try again.'], S...) -->
+                  <span class="method-name">tc_03_SignInFunctionality</span>
+                  <span class="parameters">(vino184@gmail.com, testingtesting, //div[text()='Sorry, something went wrong. Please try again.'], Sorry, something went wrong. Please try again.)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">E:\EclipseClass\BestBuyECommerceProject\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;test.TC002_ValidateUrlIsNotBroken&quot;/&gt;
+      &lt;class name=&quot;test.TC004_CheckTitleOfAllMenu&quot;/&gt;
+      &lt;class name=&quot;test.TC005_ValidateLinkInBottomOfHomePage&quot;/&gt;
+      &lt;class name=&quot;test.TC008_SelAddItemShopByBrandMenu&quot;/&gt;
+      &lt;class name=&quot;test.TC009_CheckOutPageFilling&quot;/&gt;
+      &lt;class name=&quot;test.TC003_SignIn&quot;/&gt;
+      &lt;class name=&quot;test.TC006_SearchAddItemInCart&quot;/&gt;
+      &lt;class name=&quot;test.TC007_SelAddItemShopByDeptMenu&quot;/&gt;
+      &lt;class name=&quot;test.TC001_NavigatingtoBestBuy&quot;/&gt;
+      &lt;class name=&quot;test.TC003_CreateAccount&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (10 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(31);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'tc_03_validateCreatAccountFunctionality')
+data.setCell(0, 2, 'test.TC003_CreateAccount')
+data.setCell(0, 3, 69733);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'tc_06_SearchAddItemInCart')
+data.setCell(1, 2, 'test.TC006_SearchAddItemInCart')
+data.setCell(1, 3, 66502);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'tc_09_CheckOutPageFilling')
+data.setCell(2, 2, 'test.TC009_CheckOutPageFilling')
+data.setCell(2, 3, 59544);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'tc_08_selAddItemShopByBrandMenu')
+data.setCell(3, 2, 'test.TC008_SelAddItemShopByBrandMenu')
+data.setCell(3, 3, 42670);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'tc_03_validateCreatAccountFunctionality')
+data.setCell(4, 2, 'test.TC003_CreateAccount')
+data.setCell(4, 3, 42261);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'tc_03_SignInFunctionality')
+data.setCell(5, 2, 'test.TC003_SignIn')
+data.setCell(5, 3, 40691);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'tc_03_validateCreatAccountFunctionality')
+data.setCell(6, 2, 'test.TC003_CreateAccount')
+data.setCell(6, 3, 39599);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'tc_04_CheckTitleOfAllMenu')
+data.setCell(7, 2, 'test.TC004_CheckTitleOfAllMenu')
+data.setCell(7, 3, 34029);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'tc_04_CheckTitleOfAllMenu')
+data.setCell(8, 2, 'test.TC004_CheckTitleOfAllMenu')
+data.setCell(8, 3, 32021);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'tc_07_selAddItemShopByDeptMenu')
+data.setCell(9, 2, 'test.TC007_SelAddItemShopByDeptMenu')
+data.setCell(9, 3, 30998);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'tc_03_validateCreatAccountFunctionality')
+data.setCell(10, 2, 'test.TC003_CreateAccount')
+data.setCell(10, 3, 30455);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'tc_03_SignInFunctionality')
+data.setCell(11, 2, 'test.TC003_SignIn')
+data.setCell(11, 3, 28769);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'tc_03_SignInFunctionality')
+data.setCell(12, 2, 'test.TC003_SignIn')
+data.setCell(12, 3, 28607);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'tc_03_SignInFunctionality')
+data.setCell(13, 2, 'test.TC003_SignIn')
+data.setCell(13, 3, 26047);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'tc_04_CheckTitleOfAllMenu')
+data.setCell(14, 2, 'test.TC004_CheckTitleOfAllMenu')
+data.setCell(14, 3, 24767);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'tc_04_CheckTitleOfAllMenu')
+data.setCell(15, 2, 'test.TC004_CheckTitleOfAllMenu')
+data.setCell(15, 3, 24545);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'tc_02_validateUrlIsNotBroken')
+data.setCell(16, 2, 'test.TC002_ValidateUrlIsNotBroken')
+data.setCell(16, 3, 24032);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'tc_04_CheckTitleOfAllMenu')
+data.setCell(17, 2, 'test.TC004_CheckTitleOfAllMenu')
+data.setCell(17, 3, 22848);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'tc_03_validateCreatAccountFunctionality')
+data.setCell(18, 2, 'test.TC003_CreateAccount')
+data.setCell(18, 3, 21904);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'tc_03_validateCreatAccountFunctionality')
+data.setCell(19, 2, 'test.TC003_CreateAccount')
+data.setCell(19, 3, 21397);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'tc_03_validateCreatAccountFunctionality')
+data.setCell(20, 2, 'test.TC003_CreateAccount')
+data.setCell(20, 3, 21355);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'tc_03_validateCreatAccountFunctionality')
+data.setCell(21, 2, 'test.TC003_CreateAccount')
+data.setCell(21, 3, 19851);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'tc_03_validateCreatAccountFunctionality')
+data.setCell(22, 2, 'test.TC003_CreateAccount')
+data.setCell(22, 3, 19164);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'tc_03_validateCreatAccountFunctionality')
+data.setCell(23, 2, 'test.TC003_CreateAccount')
+data.setCell(23, 3, 18934);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'tc_03_validateCreatAccountFunctionality')
+data.setCell(24, 2, 'test.TC003_CreateAccount')
+data.setCell(24, 3, 18842);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'tc_04_CheckTitleOfAllMenu')
+data.setCell(25, 2, 'test.TC004_CheckTitleOfAllMenu')
+data.setCell(25, 3, 18842);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'tc_04_CheckTitleOfAllMenu')
+data.setCell(26, 2, 'test.TC004_CheckTitleOfAllMenu')
+data.setCell(26, 3, 18372);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'tc_04_CheckTitleOfAllMenu')
+data.setCell(27, 2, 'test.TC004_CheckTitleOfAllMenu')
+data.setCell(27, 3, 17736);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'tc_04_CheckTitleOfAllMenu')
+data.setCell(28, 2, 'test.TC004_CheckTitleOfAllMenu')
+data.setCell(28, 3, 17686);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'tc_05_validateLinkInBottomOfHomePage')
+data.setCell(29, 2, 'test.TC005_ValidateLinkInBottomOfHomePage')
+data.setCell(29, 3, 14328);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'tc_01_navgatingToBestBestApp')
+data.setCell(30, 2, 'test.TC001_NavigatingtoBestBuy')
+data.setCell(30, 3, 3964);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 15 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">18 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">test.TC001_NavigatingtoBestBuy</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">startReport</span>
+                <br/>
+                <span class="ignored-method-name">endReport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">test.TC005_ValidateLinkInBottomOfHomePage</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">startReport</span>
+                <br/>
+                <span class="ignored-method-name">endReport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">test.TC006_SearchAddItemInCart</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">startReport</span>
+                <br/>
+                <span class="ignored-method-name">endReport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">test.TC008_SelAddItemShopByBrandMenu</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">startReport</span>
+                <br/>
+                <span class="ignored-method-name">endReport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">test.TC004_CheckTitleOfAllMenu</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">startReport</span>
+                <br/>
+                <span class="ignored-method-name">endReport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">test.TC003_CreateAccount</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">startReport</span>
+                <br/>
+                <span class="ignored-method-name">endReport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">test.TC007_SelAddItemShopByDeptMenu</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">startReport</span>
+                <br/>
+                <span class="ignored-method-name">endReport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">test.TC003_SignIn</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">startReport</span>
+                <br/>
+                <span class="ignored-method-name">endReport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">test.TC009_CheckOutPageFilling</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">startReport</span>
+                <br/>
+                <span class="ignored-method-name">endReport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.TC002_ValidateUrlIsNotBroken</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">startReport</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">293 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.TC003_CreateAccount</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">293 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.TC003_SignIn</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">293 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.TC001_NavigatingtoBestBuy</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">293 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.TC007_SelAddItemShopByDeptMenu</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">294 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.TC009_CheckOutPageFilling</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">294 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.TC006_SearchAddItemInCart</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">294 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.TC004_CheckTitleOfAllMenu</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">294 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.TC005_ValidateLinkInBottomOfHomePage</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">294 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.TC008_SelAddItemShopByBrandMenu</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">294 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.TC002_ValidateUrlIsNotBroken</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">testDetails</span>
+                <span class="method-start">341 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">start</span>
+                <span class="method-start">388 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc_02_validateUrlIsNotBroken</span>
+                <span class="method-start">6849 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">30883 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.TC004_CheckTitleOfAllMenu</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">testDetails</span>
+                <span class="method-start">31308 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">start</span>
+                <span class="method-start">32478 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc_04_CheckTitleOfAllMenu(Top Deals, Top Deals and Featured Offers on Electronics - Best Buy)</span>
+                <span class="method-start">36372 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">59228 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">start</span>
+                <span class="method-start">59690 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc_04_CheckTitleOfAllMenu(Deal of the Day, Deal of the Day: Electronics Deals - Best Buy)</span>
+                <span class="method-start">63613 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">97642 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">start</span>
+                <span class="method-start">98139 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">tc_04_CheckTitleOfAllMenu(Totaltech Membership, Best Buy Totaltech™ – Best Buy)</span>
+                <span class="method-start">102121 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">120499 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">start</span>
+                <span class="method-start">120980 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc_04_CheckTitleOfAllMenu(Credit Cards, Best Buy Credit Card: Rewards & Financing)</span>
+                <span class="method-start">124670 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">142356 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">start</span>
+                <span class="method-start">142901 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc_04_CheckTitleOfAllMenu(Gift Cards, Gifts Cards and E-Gift Cards - Best Buy)</span>
+                <span class="method-start">147694 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">166538 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">start</span>
+                <span class="method-start">167072 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">tc_04_CheckTitleOfAllMenu(Gift Ideas, Gift Ideas 2023: Best Gifts to Give This Year - Best Buy)</span>
+                <span class="method-start">171745 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">196290 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">start</span>
+                <span class="method-start">196794 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">tc_04_CheckTitleOfAllMenu(Health & Wellness, Health & Wellness Solutions & Technology - Best Buy)</span>
+                <span class="method-start">201233 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">233256 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">start</span>
+                <span class="method-start">233726 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc_04_CheckTitleOfAllMenu(Best Buy Outlet, Best Buy Outlet: Clearance Electronics Outlet Store – Best Buy)</span>
+                <span class="method-start">237562 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">255298 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">start</span>
+                <span class="method-start">255802 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">tc_04_CheckTitleOfAllMenu(Best Buy Business, Best Buy for Business - Best Buy)</span>
+                <span class="method-start">260083 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">284850 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.TC005_ValidateLinkInBottomOfHomePage</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">start</span>
+                <span class="method-start">285355 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-class before">
+                <span class="method-name">testDetails</span>
+                <span class="method-start">285355 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">tc_05_validateLinkInBottomOfHomePage</span>
+                <span class="method-start">289262 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">303590 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.TC008_SelAddItemShopByBrandMenu</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">testDetails</span>
+                <span class="method-start">304064 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">start</span>
+                <span class="method-start">304066 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">tc_08_selAddItemShopByBrandMenu</span>
+                <span class="method-start">309245 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">351920 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.TC009_CheckOutPageFilling</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">testDetails</span>
+                <span class="method-start">352550 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">start</span>
+                <span class="method-start">352550 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">tc_09_CheckOutPageFilling</span>
+                <span class="method-start">357171 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">416715 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.TC003_SignIn</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">testDetails</span>
+                <span class="method-start">417325 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">start</span>
+                <span class="method-start">417410 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">tc_03_SignInFunctionality(vino184@gmail.com, testing, //strong//div, We didn't find an account with that email address. Would ...)</span>
+                <span class="method-start">423184 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">463875 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">start</span>
+                <span class="method-start">464408 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">tc_03_SignInFunctionality(vino18493@gmail.com, teting, //div[text()='The password was incorrect. Please try again.'], The pass...)</span>
+                <span class="method-start">468263 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">494310 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">start</span>
+                <span class="method-start">494796 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc_03_SignInFunctionality(vino184@gmail.com, testingtesting, //div[text()='Sorry, something went wrong. Please try again.'], S...)</span>
+                <span class="method-start">498571 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">527343 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">start</span>
+                <span class="method-start">527870 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">tc_03_SignInFunctionality(vino18493@gmail.com, testingtesting, //span[text()='Hi, Test'], Hi, Test)</span>
+                <span class="method-start">532606 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">561213 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.TC006_SearchAddItemInCart</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">testDetails</span>
+                <span class="method-start">561731 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">start</span>
+                <span class="method-start">561733 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">tc_06_SearchAddItemInCart</span>
+                <span class="method-start">566522 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">633024 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.TC007_SelAddItemShopByDeptMenu</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">testDetails</span>
+                <span class="method-start">633729 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">start</span>
+                <span class="method-start">633731 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">tc_07_selAddItemShopByDeptMenu</span>
+                <span class="method-start">637569 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">668567 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.TC001_NavigatingtoBestBuy</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">testDetails</span>
+                <span class="method-start">669225 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">start</span>
+                <span class="method-start">669228 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc_01_navgatingToBestBestApp</span>
+                <span class="method-start">673730 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">677694 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.TC003_CreateAccount</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">testDetails</span>
+                <span class="method-start">678023 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">start</span>
+                <span class="method-start">678123 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc_03_validateCreatAccountFunctionality(test, , vino18493@gmail.com, testingtesting, testingtesting, 9.87654321E9, //p[text()='Please enter ...)</span>
+                <span class="method-start">681850 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">700692 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">start</span>
+                <span class="method-start">701201 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc_03_validateCreatAccountFunctionality(, t, vino18493@gmail.com, testingtesting, testingtesting, 9.87654321E9, //p[text()='Please enter you...)</span>
+                <span class="method-start">704825 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">726729 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">start</span>
+                <span class="method-start">727244 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc_03_validateCreatAccountFunctionality(test, t, vino18493.com, testingtesting, testingtesting, 9.87654321E9, //p[text()='Please enter a val...)</span>
+                <span class="method-start">731534 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">752933 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">start</span>
+                <span class="method-start">753468 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc_03_validateCreatAccountFunctionality(test, t, vino18493@gmail.com, test, test, 9.87654321E9, //p[text()='Please enter a strong password.'...)</span>
+                <span class="method-start">758015 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">827750 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">start</span>
+                <span class="method-start">828315 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc_03_validateCreatAccountFunctionality(test, t, vino18493@gmail.com, , testingtesting, 9.87654321E9, //p[text()='Passwords do not match.'],...)</span>
+                <span class="method-start">832151 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">851315 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">start</span>
+                <span class="method-start">851801 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc_03_validateCreatAccountFunctionality(test, t, vino18493@gmail.com, testingtesting, , 9.87654321E9, //p[text()='Passwords do not match.'],...)</span>
+                <span class="method-start">855344 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">885801 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">start</span>
+                <span class="method-start">886313 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc_03_validateCreatAccountFunctionality(test, t, vino18493@gmail.com, , , 9.87654321E9, //p[text()='Please enter a strong password.'], Pleas...)</span>
+                <span class="method-start">889969 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">908905 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">start</span>
+                <span class="method-start">909430 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc_03_validateCreatAccountFunctionality(test, t, vino18493@gmail.com, testingtesting, testingtesting, 987654321, //p[text()='Please enter a ...)</span>
+                <span class="method-start">913188 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">955449 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">start</span>
+                <span class="method-start">956039 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc_03_validateCreatAccountFunctionality(test, t, vino18493@gmail.com, testingtesting, testingtesting, 98765qwert, //p[text()='Please enter a...)</span>
+                <span class="method-start">960786 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">982141 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">start</span>
+                <span class="method-start">982715 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc_03_validateCreatAccountFunctionality(test, t, vino18493@gmail.com, testingtesting, testingtesting, qwertyuiop, //p[text()='Please enter a...)</span>
+                <span class="method-start">986523 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">1006374 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">start</span>
+                <span class="method-start">1006719 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc_03_validateCreatAccountFunctionality(test, t, vino18493@gmail.com, testingtesting, testingtesting, 9876543210, //strong[text()='Sorry, th...)</span>
+                <span class="method-start">1010354 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">1049953 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.TC002_ValidateUrlIsNotBroken</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">endReport</span>
+                <span class="method-start">1050642 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
